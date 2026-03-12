@@ -1,161 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ujamaa Educational Technologies</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f5f5f5;
-}
-
-header{
-background:#1b5e20;
-color:white;
-padding:40px;
-text-align:center;
-}
-
-nav{
-background:#333;
-padding:12px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-section{
-padding:60px 20px;
-max-width:1000px;
-margin:auto;
-}
-
-.hero{
-background:#e8f5e9;
-text-align:center;
-}
-
-.programs{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:8px;
-box-shadow:0 2px 6px rgba(0,0,0,0.1);
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:30px;
-}
-
-button{
-background:#2e7d32;
-color:white;
-padding:12px 25px;
-border:none;
-border-radius:5px;
-font-size:16px;
-}
-
-</style>
+  <title>Ujamaa Educational Technologies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#f9f9f9;}
+    header {background:#1b5e20; color:white; padding:50px 20px; text-align:center;}
+    nav {background:#2e7d32; padding:15px; text-align:center;}
+    nav a {color:white; margin:15px; text-decoration:none; font-weight:bold;}
+    .hero {background:#e8f5e9; text-align:center; padding:80px 20px;}
+    .hero h1 {font-size:2.5em; margin-bottom:10px;}
+    .hero p {font-size:1.2em; margin-bottom:20px;}
+    button {background:#2e7d32; color:white; padding:12px 25px; border:none; border-radius:5px; font-size:16px; cursor:pointer;}
+    section {padding:60px 20px; max-width:1100px; margin:auto;}
+    h2 {color:#1b5e20; text-align:center; margin-bottom:40px;}
+    .programs {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px;}
+    .card {background:white; padding:30px; border-radius:10px; box-shadow:0 3px 8px rgba(0,0,0,0.1);}
+    footer {background:#222; color:white; text-align:center; padding:40px;}
+  </style>
 </head>
-
 <body>
 
 <header>
-<h1>Ujamaa Educational Technologies</h1>
-<p>Empowering the Next Generation of African Innovators</p>
+  <h1>Ujamaa Educational Technologies</h1>
+  <p>Empowering African Youth & Entrepreneurs through Innovation and Sustainable Agriculture</p>
 </header>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">Programs</a>
-<a href="#">About</a>
-<a href="#">Donate</a>
-<a href="#">Contact</a>
+  <a href="#">Home</a>
+  <a href="#programs">Programs</a>
+  <a href="#impact">Impact</a>
+  <a href="#partner">Partner With Us</a>
+  <a href="#contact">Contact</a>
 </nav>
 
 <section class="hero">
-
-<h2>Building Africa’s Future Through STEM, AgriTech & Innovation</h2>
-
-<p>
-Ujamaa Educational Technologies empowers youth and women through
-technology education, sustainable agriculture, and entrepreneurship.
-</p>
-
-<button>Support the Mission</button>
-
+  <h1>Building Africa’s Future Through Technology and Regenerative Agriculture</h1>
+  <p>We train youth and women to become leaders in STEM, AgriTech, and sustainable entrepreneurship.</p>
+  <button onclick="window.location='#partner'">Partner With Us</button>
 </section>
 
-<section>
-
-<h2>Flagship Program</h2>
-
-<div class="card">
-
-<h3>Permaculture & Regenerative Farming</h3>
-
-<p>
-Our flagship program teaches sustainable agriculture using permaculture
-principles that restore soil health, conserve water, and create
-climate-resilient farms. The Moringa demonstration farm serves as a
-living classroom for regenerative agriculture training.
-</p>
-
-</div>
-
+<section id="programs">
+  <h2>Our Innovation Programs</h2>
+  <div class="programs">
+    <div class="card">
+      <h3>🌿 Permaculture & Regenerative Farming</h3>
+      <p>Our flagship program uses the Moringa demonstration farm as a living classroom, training youth and women in climate-resilient agriculture, soil restoration, and sustainable farming systems.</p>
+    </div>
+    <div class="card">
+      <h3>☀️ SolarGrow Smart Farm</h3>
+      <p>Hands-on training in solar-powered agriculture and smart farming technology to increase productivity and sustainability.</p>
+    </div>
+    <div class="card">
+      <h3>💻 STEM Innovation Labs</h3>
+      <p>Technology and coding training programs that equip youth with essential digital skills for the modern workforce.</p>
+    </div>
+    <div class="card">
+      <h3>👩🏾 Women in Tech Leadership</h3>
+      <p>Empowering women with mentorship and technology skills to succeed in male-dominated industries.</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Youth Entrepreneurship</h3>
+      <p>Helping innovators turn ideas into sustainable businesses through training, guidance, and support.</p>
+    </div>
+  </div>
 </section>
 
-<section>
-
-<h2>Programs</h2>
-
-<div class="programs">
-
-<div class="card">
-<h3>SolarGrow Smart Farm</h3>
-<p>Solar-powered agriculture and smart farming technology training.</p>
-</div>
-
-<div class="card">
-<h3>STEM Innovation Labs</h3>
-<p>Hands-on training in coding, digital tools, and emerging technology.</p>
-</div>
-
-<div class="card">
-<h3>Women in Tech Leadership</h3>
-<p>Empowering women through mentorship and technology skills.</p>
-</div>
-
-<div class="card">
-<h3>Youth Entrepreneurship</h3>
-<p>Helping innovators turn ideas into businesses.</p>
-</div>
-
-</div>
-
+<section id="impact">
+  <h2>Why Partner With Us</h2>
+  <div class="programs">
+    <div class="card">
+      <h3>Community-driven Innovation</h3>
+      <p>We empower youth and women to create real impact in their communities through technology and agriculture.</p>
+    </div>
+    <div class="card">
+      <h3>Climate-Resilient Agriculture</h3>
+      <p>Our programs focus on sustainable, regenerative farming that strengthens local food systems.</p>
+    </div>
+    <div class="card">
+      <h3>Entrepreneurship & Job Creation</h3>
+      <p>Participants gain skills to start small enterprises and contribute to economic growth.</p>
+    </div>
+    <div class="card">
+      <h3>Innovation & Technology</h3>
+      <p>We integrate AgriTech and STEM learning to equip the next generation of African innovators.</p>
+    </div>
+  </div>
 </section>
 
-<footer>
+<section id="partner">
+  <h2>Partner With Us</h2>
+  <p>Support Ujamaa Educational Technologies by sponsoring programs, providing equipment, or collaborating on innovation initiatives. Together, we can empower Africa’s next generation of entrepreneurs and innovators.</p>
+  <button onclick="window.location='#contact'">Contact Us</button>
+</section>
 
-<p>© 2026 Ujamaa Educational Technologies</p>
-
+<footer id="contact">
+  <p>© 2026 Ujamaa Educational Technologies</p>
+  <p>Email: info@ujamaaedtech.org | Phone: +233 XXX XXX XXX</p>
 </footer>
 
 </body>
