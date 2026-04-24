@@ -1,1 +1,1 @@
-# ujamaa-edtech
+# ujamaa-agritech
